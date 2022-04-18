@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Question } from './Question';
-import { Results } from './Results';
+import { Question } from '../question/Question';
+import { Results } from '../Results';
 import './Quiz.css';
 
 const questions = [
