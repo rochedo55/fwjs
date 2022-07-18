@@ -1,11 +1,12 @@
 import React from "react";
 import './index.css'
 import {Container} from 'react-bootstrap'
-interface Tab_view{
+export interface Tab_view{
     id: Number,
+    title:string,
     content: string,
 }
-function Tabs(props:Tab_view){
+export function Tabs(props:Tab_view){
     return(
         <Container>
         
@@ -14,4 +15,3 @@ function Tabs(props:Tab_view){
     )
 }
 
-export default Tabs
